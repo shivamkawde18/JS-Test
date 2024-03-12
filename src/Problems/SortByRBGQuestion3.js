@@ -1,3 +1,7 @@
+// Given a List of characters “R”, “G” and “B”. sort them in such a way
+// that all “R”, “G” and “B” will be together, List need to be sorted in
+// place.
+
 export const sortRGB = (arr) => {
   let low = 0;
   let high = arr.length - 1;
